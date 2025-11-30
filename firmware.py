@@ -1,7 +1,5 @@
-main.py
 import board
 
-# These are imports from the kmk library
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.scanners.keypad import KeysScanner
 from kmk.keys import KC
@@ -15,10 +13,14 @@ keyboard.matrix = KeysScanner(
     value_when_pressed=False,
 )
 
-# Change out with app launches depending on apps once tested.
-
+# Replace key outputs with hotkey combos
 keyboard.keymap = [
-    [KC.SPACE, KC.W, KC.A, KC.D,]
+    [
+        KC.LCTRL(KC.LALT(KC.C)),  # Chrome
+        KC.LCTRL(KC.LALT(KC.D)),  # Discord
+        KC.LCTRL(KC.LALT(KC.V)),  # VSCode
+        KC.LCTRL(KC.LALT(KC.E)),  # File Explorer
+    ]
 ]
 
 if __name__ == '__main__':
