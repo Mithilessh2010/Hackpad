@@ -5,18 +5,18 @@
 </p>
 
 ## Overview
-I made this for fun to help me open applications easier while streaming
+I made this for fun to help me open applications easier while streaming, the code is made to launch certain commands when ran so it can open up certain applications with just one click.
 
 ## Images / Showcase
 
 ### Overall Hackpad (Assembly)
 <p align="center">
-  <img src="https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Assembly%20ss.png" width="400">
+  <img src="https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Cad%20ss.png" width="400">
 </p>
 
 ### Schematic
 <p align="center">
-  <img src="https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Schematics%20SS.png" width="400">
+  <img src="https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Schematic%20SS.png" width="400">
 </p>
 
 ### PCB
@@ -26,7 +26,7 @@ I made this for fun to help me open applications easier while streaming
 
 ### Case and Fitment
 <p align="center">
-  <img src="https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Assembly%20ss.png" width="400">
+  <img src="https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Cad%20ss.png" width="400">
 </p>
 
 ## Bill of Materials (BOM)
