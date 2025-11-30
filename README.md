@@ -1,7 +1,7 @@
 # Hackpad
 
 <p align="center">
-  <img src="https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Assembly%20ss.png" width="450">
+  <img src="https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Cad%20ss.png" width="400">
 </p>
 
 ## Overview
@@ -16,8 +16,7 @@ I made this for fun to help me open applications easier while streaming, the cod
 
 ### Schematic
 <p align="center">
-  <img src="https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Schematic%20SS.png" width="400">
-</p>
+  <img src="[https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Schematic%20SS.png](https://github.com/Mithilessh2010/Hackpad/blob/main/Images/Schematics%20ss.png)" width="400"></p>
 
 ### PCB
 <p align="center">
