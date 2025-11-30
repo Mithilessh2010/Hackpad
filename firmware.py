@@ -1,8 +1,10 @@
 import board
-
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.scanners.keypad import KeysScanner
 from kmk.keys import KC
+
+# Rotary encoder support
+from kmk.modules.encoder import EncoderHandler
 
 keyboard = KMKKeyboard()
 
@@ -13,7 +15,6 @@ keyboard.matrix = KeysScanner(
     value_when_pressed=False,
 )
 
-# Replace key outputs with hotkey combos
 keyboard.keymap = [
     [
         KC.LCTRL(KC.LALT(KC.C)),  # Chrome
@@ -22,6 +23,26 @@ keyboard.keymap = [
         KC.LCTRL(KC.LALT(KC.E)),  # File Explorer
     ]
 ]
+
+encoder = EncoderHandler()
+
+# Change these to your actual pins:
+encoder.pins = (
+    board.D2,   # A pin
+    board.D3,   # B pin
+    board.D4,   # SW (button) - optional
+)
+
+# What happens when you turn the knob:
+encoder.map = [
+    ((KC.VOLU, KC.VOLD)),  # CW = VOL UP, CCW = VOL DOWN
+]
+
+# What happens when you click the knob:
+encoder.button = KC.MUTE  
+
+# Add encoder module
+keyboard.modules.append(encoder)
 
 if __name__ == '__main__':
     keyboard.go()
