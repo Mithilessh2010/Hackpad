@@ -33,7 +33,8 @@ I made this for fun to help me open applications easier while streaming, the cod
 - 1x printed top part  
 - 1x XIAO-RP2040-DIP  
 - 4x Cherry MX Switches  
-- 2x SK6812 MINI LEDs  
+- 2x SK6812 MINI LEDs
+- Rotary Encoder
 
 ## Installation
 
